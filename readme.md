@@ -1,7 +1,7 @@
 
 # Bing Wallpaper
 ![bing](today.jpg) 
-*update time: 2023-12-03 11:47:52 UTC*
+*update time: 2023-12-03 11:53:23 UTC*
 
 
 [简体中文](readme_zh.md)
@@ -28,4 +28,4 @@ This project provides a simple solution that uses GitHub Actions workflow to aut
 Contributions to this project are welcome. If you find any issues or have any improvements in mind, feel free to raise an issue or submit a pull request.
 
 ---
-Enjoy the captivating Bing daily images effortlessly with My-Bing-Wallpaper using GitHub Actions!
+Enjoy the captivating Bing daily images effortlessly with MyBingWallpaper using GitHub Actions!

@@ -1,7 +1,7 @@
 
 # Bing Wallpaper
 ![bing](today.jpg) 
-*update time: 2023-12-03 11:47:52 UTC*
+*update time: 2023-12-03 11:53:23 UTC*
 
 
 [English](readme.md)
@@ -28,4 +28,4 @@
 欢迎对这个项目进行贡献。如果您发现任何问题或有改进建议，请随时提出问题或提交拉取请求。
 
 ---
-使用 My-Bing-Wallpaper，通过 GitHub Actions 轻松享受迷人的必应每日图片吧！
+使用 MyBingWallpaper，通过 GitHub Actions 轻松享受迷人的必应每日图片吧！
