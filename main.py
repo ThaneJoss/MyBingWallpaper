@@ -58,7 +58,7 @@ This project provides a simple solution that uses GitHub Actions workflow to aut
 Contributions to this project are welcome. If you find any issues or have any improvements in mind, feel free to raise an issue or submit a pull request.
 
 ---
-Enjoy the captivating Bing daily images effortlessly with My-Bing-Wallpaper using GitHub Actions!
+Enjoy the captivating Bing daily images effortlessly with MyBingWallpaper using GitHub Actions!
 """
 
 description_zh="""
@@ -87,7 +87,7 @@ description_zh="""
 欢迎对这个项目进行贡献。如果您发现任何问题或有改进建议，请随时提出问题或提交拉取请求。
 
 ---
-使用 My-Bing-Wallpaper，通过 GitHub Actions 轻松享受迷人的必应每日图片吧！
+使用 MyBingWallpaper，通过 GitHub Actions 轻松享受迷人的必应每日图片吧！
 """
 
 with open('./readme.md','w+',encoding='utf-8') as f:
