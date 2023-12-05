@@ -27,7 +27,7 @@ current_timezone = datetime.datetime.now().astimezone().tzinfo
 
 
 readme=f"""
-# Bing Wallpaper
+# My Bing Wallpaper
 ![bing](today.jpg) 
 *update time: {now} {current_timezone}*
 """
