@@ -1,7 +1,7 @@
 
 # My Bing Wallpaper
 ![bing](today.jpg) 
-*update time: 2023-12-19 16:08:06 UTC*
+*update time: 2023-12-20 12:21:57 UTC*
 
 
 [English](readme.md)
@@ -23,8 +23,7 @@
 ## 使用方法
 
 1. Fork 此存储库。
-2. 进入 "Settings-Actions-General-Workflow permissions"，选择 "Read and write permissions"，然后点击 "Save"。
-3. 每天 UTC 时间 16:00 或每当您向存储库推送提交时，脚本将自动运行并获取最新的必应壁纸图片。
+2. 每天 UTC 时间 16:00 或每当您向存储库推送提交时，脚本将自动运行并获取最新的必应壁纸图片。
 
 ## 贡献
 欢迎对这个项目进行贡献。如果您发现任何问题或有改进建议，请随时提出问题或提交拉取请求。
