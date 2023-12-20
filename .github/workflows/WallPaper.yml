@@ -42,5 +42,7 @@ jobs:
         git commit -m "Fetch Images"
         git push 
       
+    - name: deploy
+      uses: thanejoss/thanejoss.github.io@main
 
       
