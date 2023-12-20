@@ -1,7 +1,7 @@
 
 # My Bing Wallpaper
 ![bing](today.jpg) 
-*update time: 2023-12-19 16:08:06 UTC*
+*update time: 2023-12-20 12:21:57 UTC*
 
 
 [简体中文](readme_zh.md)
@@ -23,8 +23,7 @@ This project provides a simple solution that uses GitHub Actions workflow to aut
 ## Usage
 
 1. Fork this repository.
-2. Go to "Settings-Actions-General-Workflow permissions" and select "Read and write permissions," then click "Save."
-3. The script will automatically run and fetch the latest Bing wallpaper image at 16:00 UTC every day or whenever you push a commit to the repository.
+2. The script will automatically run and fetch the latest Bing wallpaper image at 16:00 UTC every day or whenever you push a commit to the repository.
 
 ## Contributions
 Contributions to this project are welcome. If you find any issues or have any improvements in mind, feel free to raise an issue or submit a pull request.
