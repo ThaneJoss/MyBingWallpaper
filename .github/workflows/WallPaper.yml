@@ -6,6 +6,8 @@ on:
       - code
   schedule:
     - cron: '0 16 * * *'
+  repository_dispatch:
+    types: [custom-event]
 
 permissions:
   contents: write
@@ -41,8 +43,4 @@ jobs:
         git add .
         git commit -m "Fetch Images"
         git push 
-      
-    - name: deploy
-      uses: thanejoss/thanejoss.github.io@main
-
       
