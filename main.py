@@ -1,5 +1,8 @@
-import requests,datetime,os
+import requests
+import os
 import datetime
+from PIL import Image
+from io import BytesIO
 
 url='https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US'
 response = requests.get(url)
@@ -10,15 +13,22 @@ imgdate=response.json()["images"][0]["startdate"]
 #download image
 img=requests.get(imgurl)
 
+storepath='./images'
+
 # if folder not exist, create it
-if not os.path.exists('./images'):
-    os.mkdir('./images')
+if not os.path.exists(storepath):
+    os.mkdir(storepath)
 
-with open(f'./images/{imgdate}.jpg','wb+') as f:
-    f.write(img.content)
+img=Image.open(BytesIO(img.content))
+save_kwargs = {
+    'format': 'JPEG',
+    'quality': 'high',
+    'progressive': True
+}
 
-with open('today.jpg','wb+') as f:
-    f.write(img.content)
+img.save(f'{storepath}/{imgdate}.jpg',**save_kwargs)
+
+img.save('today.jpg', **save_kwargs)
 
 now=datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 print(now)
