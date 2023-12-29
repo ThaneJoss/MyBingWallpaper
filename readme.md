@@ -1,7 +1,7 @@
 
 # My Bing Wallpaper
 ![bing](today.jpg) 
-*update time: 2023-12-29 16:14:57 UTC*
+*update time: 2023-12-29 16:18:24 UTC*
 
 
 [简体中文](readme_zh.md)
@@ -10,7 +10,7 @@ This project is based on GitHub Actions and aims to simplify the process of acce
 
 You can view the entire collection at [thanejoss.com](https://thanejoss.com).
 
-To obtain the original image, please use the following link: [Today's Wallpaper](https://raw.githubusercontent.com/ThaneJoss/MyBingWallpaper/main/today.jpg).
+To obtain the original image, please use the following link: [Today's Wallpaper](https://bingwallpaper.thanejoss.com).
 ## About
 This project provides a simple solution that uses GitHub Actions workflow to automate the process of fetching the daily Bing wallpaper. It runs a script at either 16:00 UTC every day or whenever you push a commit to the repository, fetching the latest Bing wallpaper image and saving it locally for easy access. You can use it as a desktop background or for other purposes.
 

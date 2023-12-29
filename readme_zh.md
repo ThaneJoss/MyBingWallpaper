@@ -1,16 +1,16 @@
 
 # My Bing Wallpaper
 ![bing](today.jpg) 
-*update time: 2023-12-29 16:14:57 UTC*
+*update time: 2023-12-29 16:18:24 UTC*
 
 
 [English](readme.md)
 
 这个项目是基于 GitHub Actions 的，旨在简化访问迷人的必应每日图片的过程。每天，必应在其主页展示一张令人惊叹的图片，代表着自然、文化等各个方面。
 
-您可以在 [thanejoss.com](https://thanejoss.com) 浏览完整集。
+您可以在 [thanejoss.com](https://thanejoss.com) 浏览完整合集。
 
-要获取原始图片，请使用以下链接：[今日壁纸](https://raw.githubusercontent.com/ThaneJoss/MyBingWallpaper/main/today.jpg)。
+要获取原始图片，请使用以下链接：[今日壁纸](https://bingwallpaper.thanejoss.com)。
 
 ## 关于
 该项目提供了一个简单的解决方案，使用 GitHub Actions 自动化流程来获取每日必应壁纸。它在每天 UTC 时间 16:00 或每当你向存储库推送提交时运行脚本，获取最新的必应壁纸图片并将其保存在本地，方便您用作桌面背景或其他用途。
