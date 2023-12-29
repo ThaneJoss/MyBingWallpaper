@@ -69,7 +69,7 @@ This project is based on GitHub Actions and aims to simplify the process of acce
 
 You can view the entire collection at [thanejoss.com](https://thanejoss.com).
 
-To obtain the original image, please use the following link: [Today's Wallpaper](https://raw.githubusercontent.com/ThaneJoss/MyBingWallpaper/main/today.jpg).
+To obtain the original image, please use the following link: [Today's Wallpaper](https://bingwallpaper.thanejoss.com).
 ## About
 This project provides a simple solution that uses GitHub Actions workflow to automate the process of fetching the daily Bing wallpaper. It runs a script at either 16:00 UTC every day or whenever you push a commit to the repository, fetching the latest Bing wallpaper image and saving it locally for easy access. You can use it as a desktop background or for other purposes.
 
@@ -98,9 +98,9 @@ description_zh="""
 
 这个项目是基于 GitHub Actions 的，旨在简化访问迷人的必应每日图片的过程。每天，必应在其主页展示一张令人惊叹的图片，代表着自然、文化等各个方面。
 
-您可以在 [thanejoss.com](https://thanejoss.com) 浏览完整集。
+您可以在 [thanejoss.com](https://thanejoss.com) 浏览完整合集。
 
-要获取原始图片，请使用以下链接：[今日壁纸](https://raw.githubusercontent.com/ThaneJoss/MyBingWallpaper/main/today.jpg)。
+要获取原始图片，请使用以下链接：[今日壁纸](https://bingwallpaper.thanejoss.com)。
 
 ## 关于
 该项目提供了一个简单的解决方案，使用 GitHub Actions 自动化流程来获取每日必应壁纸。它在每天 UTC 时间 16:00 或每当你向存储库推送提交时运行脚本，获取最新的必应壁纸图片并将其保存在本地，方便您用作桌面背景或其他用途。
