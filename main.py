@@ -3,12 +3,18 @@ import os
 import datetime
 from PIL import Image
 from io import BytesIO
+import json 
 
 url='https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US'
 response = requests.get(url)
 
 imgurl=f'https://www.bing.com{response.json()["images"][0]["url"]}'
 imgdate=response.json()["images"][0]["startdate"]
+
+imgtitle = response.json()["images"][0]["title"]
+imgcopyright = response.json()["images"][0]["copyright"]
+
+
 
 #download image
 img=requests.get(imgurl)
@@ -27,6 +33,19 @@ save_kwargs = {
 }
 
 img.save(f'{storepath}/{imgdate}.jpg',**save_kwargs)
+
+info={f"{imgdate}.jpg":
+    {
+    'title':imgtitle,
+    'date':imgdate,
+    'url':imgurl,
+    'copyright':imgcopyright
+    }
+}
+
+with open(f"{storepath}/{imgdate}.json", "w") as f:
+    json.dump(info, f)
+    
 
 img.save('today.jpg', **save_kwargs)
 
