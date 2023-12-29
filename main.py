@@ -14,7 +14,7 @@ imgdate=response.json()["images"][0]["startdate"]
 imgtitle = response.json()["images"][0]["title"]
 imgcopyright = response.json()["images"][0]["copyright"]
 
-
+print(f"img title: {imgtitle}\nimg date: {imgdate}\nimg url: {imgurl}\nimg copyright: {imgcopyright}")
 
 #download image
 img=requests.get(imgurl)
