@@ -1,7 +1,7 @@
 
 # My Bing Wallpaper
 ![bing](today.jpg) 
-*update time: 2024-02-10 16:08:09 UTC*
+*update time: 2024-02-11 16:07:46 UTC*
 
 
 [English](readme.md)
