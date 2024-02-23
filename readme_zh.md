@@ -1,7 +1,7 @@
 
 # My Bing Wallpaper
 ![bing](today.jpg) 
-*update time: 2024-02-22 16:08:03 UTC*
+*update time: 2024-02-23 03:59:59 UTC*
 
 
 [English](readme.md)
@@ -11,7 +11,6 @@
 您可以在 [thanejoss.com](https://thanejoss.com) 浏览完整合集。
 
 要获取原始图片，请使用以下链接：[今日壁纸](https://bingwallpaper.thanejoss.com)。
-
 
 ## 关于
 该项目提供了一个简单的解决方案，使用 GitHub Actions 自动化流程来获取每日必应壁纸。它在每天 UTC 时间 16:00 或每当你向存储库推送提交时运行脚本，获取最新的必应壁纸图片并将其保存在本地，方便您用作桌面背景或其他用途。
