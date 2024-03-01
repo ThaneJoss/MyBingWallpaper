@@ -1,11 +1,15 @@
 name: Fetch Images Every Day
 on:
+  workflow_dispatch:
+
   push:
     branches:
       - main
       - code
+      
   schedule:
     - cron: '0 16 * * *'
+
   repository_dispatch:
     types: [custom-event]
 
